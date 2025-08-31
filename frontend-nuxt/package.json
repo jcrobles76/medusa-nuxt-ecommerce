@@ -1,0 +1,15 @@
+{
+  "name": "medusa-nuxt-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@medusajs/medusa-js": "^6.1.10",
+    "nuxt": "^3.0.0"
+  }
+}
