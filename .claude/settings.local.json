@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "WebSearch",
+      "Bash(npm view:*)",
+      "Bash(npm install)",
+      "WebFetch(domain:nuxt.com)",
+      "Bash(npx medusa:*)",
+      "Bash(npx nuxt:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
