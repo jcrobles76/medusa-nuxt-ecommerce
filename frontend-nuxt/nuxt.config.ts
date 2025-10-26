@@ -2,13 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
 
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+    timeline: {
+      enabled: false, // Disable timeline to speed up startup
+    }
+  },
 
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@nuxt/icon',
-    '@vee-validate/nuxt',
   ],
 
   css: ['~/assets/css/main.css'],
